@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color:black;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: 500;
+}
+.Buy-btn{
+    color:white;
+    background-color: blueviolet;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.main-section{
+    text-align: center;
+    padding: 70px;
+}
+.main-section h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.request-btn{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+   
+
+}
+.main-section{
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/1f493053570bf725b7af69e53878f4f83fadfe56/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+}
